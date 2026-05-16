@@ -1,0 +1,24 @@
+# Userscript manager caches
+*.tmp
+*.log
+
+# Node modules (if using build tools)
+node_modules/
+npm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build output (keep dist/ tracked, but ignore temp files)
+dist/*.min.js
+dist/*.map
+
+# Environment/config (never commit secrets)
+*.env
+config.local.js
